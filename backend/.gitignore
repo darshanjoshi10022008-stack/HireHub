@@ -1,0 +1,24 @@
+# Dependencies
+node_modules/
+
+# Environment files & secrets
+.env
+.env.*
+!.env.example
+
+# Uploaded files
+uploads/resumes/*
+!uploads/resumes/.gitkeep
+uploads/logos/*
+!uploads/logos/.gitkeep
+uploads/avatars/*
+!uploads/avatars/.gitkeep
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Editor & OS files
+.DS_Store
+Thumbs.db

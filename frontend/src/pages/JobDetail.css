@@ -1,0 +1,349 @@
+.hh-job-detail-page {
+  background-color: var(--hh-bg);
+}
+
+.hh-detail-hero {
+  background: linear-gradient(180deg, #ffffff 0%, #f8fafc 100%);
+  border-bottom: 1px solid var(--hh-border);
+  padding: 44px 0 36px;
+}
+
+.detail-hero-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 32px;
+}
+
+.detail-header-left {
+  display: flex;
+  align-items: flex-start;
+  gap: 24px;
+}
+
+.detail-company-logo {
+  width: 72px;
+  height: 72px;
+  border-radius: var(--hh-radius-lg);
+  background: #ffffff;
+  border: 1px solid var(--hh-border);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  overflow: hidden;
+  box-shadow: var(--hh-shadow-sm);
+}
+
+.detail-company-logo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.detail-tags-top {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 8px;
+}
+
+.detail-job-title {
+  font-size: clamp(24px, 2.5vw, 34px);
+  font-weight: 800;
+  color: var(--hh-navy);
+  letter-spacing: -0.6px;
+  margin: 0 0 10px;
+  line-height: 1.25;
+}
+
+.detail-company-row {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  font-size: 14px;
+  color: var(--hh-text-muted);
+}
+
+.detail-company-link {
+  font-weight: 600;
+  color: var(--hh-primary);
+}
+
+.detail-location,
+.detail-date {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.detail-header-actions {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-shrink: 0;
+}
+
+.already-applied-pill {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 18px;
+  background-color: #ecfdf5;
+  border: 1px solid #a7f3d0;
+  border-radius: var(--hh-radius);
+  color: #065f46;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.applied-status-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #f0fdf4;
+  border: 1px solid #bbf7d0;
+  padding: 18px 24px;
+}
+
+/* Detail Body */
+.hh-detail-body {
+  padding: 36px 0 80px;
+}
+
+.hh-detail-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1.8fr) 1fr;
+  gap: 32px;
+  align-items: flex-start;
+}
+
+.detail-card {
+  padding: 36px;
+  margin-bottom: 32px;
+}
+
+.section-heading {
+  font-size: 20px;
+  font-weight: 750;
+  color: var(--hh-navy);
+  margin-bottom: 16px;
+}
+
+.detail-subblock {
+  margin-top: 28px;
+  padding-top: 24px;
+  border-top: 1px solid #f1f5f9;
+}
+
+.subblock-heading {
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--hh-navy);
+  margin-bottom: 14px;
+}
+
+.bullet-list {
+  padding-left: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-size: 14px;
+  color: #334155;
+  line-height: 1.6;
+}
+
+.skills-tag-cloud {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.skill-pill-lg {
+  font-size: 13px;
+  font-weight: 600;
+  padding: 6px 14px;
+  background-color: #eff6ff;
+  color: #1e40af;
+  border: 1px solid #dbeafe;
+  border-radius: var(--hh-radius);
+}
+
+/* Sidebar Overview Card */
+.overview-card,
+.company-snapshot-card {
+  padding: 24px;
+  margin-bottom: 24px;
+}
+
+.overview-title {
+  font-size: 16px;
+  font-weight: 750;
+  color: var(--hh-navy);
+  margin-bottom: 20px;
+}
+
+.overview-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 14px;
+  margin-bottom: 18px;
+}
+
+.overview-item:last-child {
+  margin-bottom: 0;
+}
+
+.overview-icon {
+  color: var(--hh-primary);
+  margin-top: 3px;
+  flex-shrink: 0;
+}
+
+.overview-item .label {
+  display: block;
+  font-size: 11px;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  color: var(--hh-text-muted);
+  margin-bottom: 2px;
+}
+
+.overview-item strong {
+  font-size: 14px;
+  color: var(--hh-text);
+}
+
+/* Company Snapshot */
+.company-snap-header {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-bottom: 16px;
+}
+
+.company-snap-logo {
+  width: 48px;
+  height: 48px;
+  border-radius: var(--hh-radius);
+  background: #f8fafc;
+  border: 1px solid var(--hh-border);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.company-snap-logo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.company-snap-name {
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--hh-navy);
+  margin-bottom: 2px;
+}
+
+.company-snap-industry {
+  font-size: 12px;
+  color: var(--hh-text-muted);
+}
+
+.company-snap-desc {
+  font-size: 13px;
+  line-height: 1.6;
+  color: #475569;
+  margin-bottom: 16px;
+}
+
+.company-snap-stats {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+  padding: 12px 0;
+  border-top: 1px solid var(--hh-border);
+  border-bottom: 1px solid var(--hh-border);
+  margin-bottom: 16px;
+}
+
+.company-snap-stats .label {
+  display: block;
+  font-size: 11px;
+  color: var(--hh-text-muted);
+  margin-bottom: 2px;
+}
+
+.company-snap-stats strong {
+  font-size: 13px;
+  color: var(--hh-text);
+}
+
+.company-website-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 13px;
+  color: var(--hh-primary);
+  font-weight: 600;
+}
+
+/* Related Jobs */
+.related-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 14px;
+}
+
+.related-card {
+  padding: 16px;
+  transition: all 0.18s ease;
+}
+
+.related-card:hover {
+  border-color: var(--hh-primary);
+  transform: translateY(-2px);
+}
+
+.related-card h4 {
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--hh-navy);
+  margin-bottom: 4px;
+}
+
+.related-company {
+  display: block;
+  font-size: 12px;
+  color: var(--hh-text-muted);
+  margin-bottom: 10px;
+}
+
+.related-meta {
+  font-size: 12px;
+  color: #475569;
+}
+
+@media (max-width: 900px) {
+  .detail-hero-content {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .detail-header-actions {
+    width: 100%;
+    justify-content: flex-start;
+  }
+
+  .hh-detail-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .related-grid {
+    grid-template-columns: 1fr;
+  }
+}
